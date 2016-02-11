@@ -33,7 +33,7 @@ module.exports.videoAnalysis = function(url){
             app_id    : apiKeys.kairosID,
             app_key   : apiKeys.kairosKey
           }
-        }, 10000,conditions.get)
+        }, 60000,conditions.get)
         .then(function(data){
           request({
             method    : 'DELETE',

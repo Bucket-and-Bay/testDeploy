@@ -1,7 +1,7 @@
 var axios = require('axios');
 
 // var serverURI = 'http://localhost:3000';
-var serverURI = 'https://bab-speakeasy.herokuapp.com';
+var serverURI = 'https://speakeasy123.herokuapp.com';
 
 var submitRecorded = function(videoData){
   console.log(videoData);
